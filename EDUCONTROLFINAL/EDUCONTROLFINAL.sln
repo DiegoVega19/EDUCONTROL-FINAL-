@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EDUCONTROLFINAL", "EDUCONTROLFINAL\EDUCONTROLFINAL.csproj", "{26BF8886-4314-4FD7-B880-B5C1897DA299}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26BF8886-4314-4FD7-B880-B5C1897DA299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26BF8886-4314-4FD7-B880-B5C1897DA299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26BF8886-4314-4FD7-B880-B5C1897DA299}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{26BF8886-4314-4FD7-B880-B5C1897DA299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26BF8886-4314-4FD7-B880-B5C1897DA299}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26BF8886-4314-4FD7-B880-B5C1897DA299}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5ED0785D-40CB-45E7-80FA-8257B47C4C13}
+	EndGlobalSection
+EndGlobal
