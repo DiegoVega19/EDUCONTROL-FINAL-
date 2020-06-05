@@ -1,0 +1,87 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+	android:layout_centerInParent="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<RelativeLayout
+		android:background="@android:color/holo_blue_light"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:id="@+id/linearLayout1">
+
+		<ImageView
+			android:src="@drawable/avatar"
+			android:layout_marginTop="5dp"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+			android:id="@+id/imageView1" />
+		<TextView
+			android:textSize="20dp"
+			android:text="Agregar Estudiantes"
+			android:textColor="@android:color/black"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="24dp"
+			android:textStyle="bold|italic"
+			android:layout_centerInParent="true"
+			android:id="@+id/textView1" />
+	</RelativeLayout>
+
+	<LinearLayout
+		android:layout_marginTop="30dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginLeft="10dp"
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:gravity="center"
+		android:background="@drawable/bordebuscar"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:id="@+id/linearLayout2">
+
+		<android.support.design.widget.TextInputEditText
+			android:layout_width="310dp"
+			android:hint="Buscar"
+			android:textAlignment="textEnd"
+			android:layout_height="match_parent"
+			style="@android:style/Holo.ButtonBar"
+			android:id="@+id/texAgrEstMat_Buscar"/>
+
+		<ImageView
+			android:src="@drawable/buscar"
+			android:layout_marginLeft="15dp"
+			android:layout_marginRight="10dp"
+			android:layout_width="30dp"
+			android:layout_height="30dp"
+			android:id="@+id/imageView2" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_marginTop="20dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginLeft="10dp"
+		android:background="@drawable/bordebuscar"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:gravity="center"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/linearLayout3">
+
+		<ListView
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/listAgrEstuMate" />
+	</LinearLayout>
+</LinearLayout>
