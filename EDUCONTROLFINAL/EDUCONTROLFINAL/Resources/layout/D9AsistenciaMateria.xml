@@ -1,0 +1,258 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<!--Encabezaco-->
+	<RelativeLayout
+		android:background="@android:color/holo_blue_light"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:id="@+id/linearLayout1">
+		<ImageView
+			android:src="@drawable/avatar"
+			android:layout_marginTop="5dp"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+			android:id="@+id/imageView1" />
+		<TextView
+			android:textSize="20dp"
+			android:text="Materia"
+			android:textColor="@android:color/black"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="24dp"
+			android:textStyle="bold|italic"
+			android:layout_centerInParent="true"
+			android:id="@+id/textView1" />
+	</RelativeLayout>
+
+	
+	<ScrollView
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/scrollView1" >
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:id="@+id/linearLayout2" >
+
+			<!--Barra De Progreso-->
+			<LinearLayout
+				android:orientation="vertical"
+				android:gravity="center"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="100dp"
+				android:id="@+id/linearLayout1">
+
+				<LinearLayout
+				android:layout_marginHorizontal="10dp"
+				android:orientation="horizontal"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:background="@drawable/bordebuscar"
+				android:layout_width="match_parent"
+				android:layout_height="25dp"
+				android:id="@+id/linearLayout2">
+					<TextView
+						android:text=" |||||||||||||||||||||||||||||||||||||"
+						android:textStyle="bold"
+						android:textColor="@color/ColorLetra"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:id="@+id/textView1" />
+				</LinearLayout>
+				<TextView
+					android:layout_marginTop="5dp"
+					android:textAlignment="center"
+					android:text="Asitencia 75/100"
+					android:textColor="@color/ColorLetra"
+					android:textSize="20dp"
+					android:textStyle="bold"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView2" />
+			</LinearLayout>
+			<!--Datos Estudiantes-->
+			<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:layout_marginHorizontal="10dp"
+				android:background="@drawable/bordebuscar"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="130dp"
+				android:id="@+id/linearLayout15" >
+
+				<TextView
+					android:text="Docente: "
+					android:textSize="20dp"
+					android:textStyle="bold|italic"
+					android:layout_marginTop="10dp"
+					android:layout_marginLeft="20dp"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:minWidth="25px"
+					android:minHeight="25px"
+					android:id="@+id/textView1" />
+				<TextView
+					android:text="Telefono: "
+					android:textSize="20dp"
+					android:textStyle="bold|italic"
+					android:layout_marginTop="10dp"
+					android:layout_marginLeft="20dp"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView3" />
+				<TextView
+					android:text="Email: "
+					android:textSize="20dp"
+					android:textStyle="bold|italic"
+					android:layout_marginTop="10dp"
+					android:layout_marginLeft="20dp"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView5" />
+				
+			</LinearLayout>
+			<!--Calificaciones-->
+			<LinearLayout
+				android:orientation="vertical"
+				android:gravity="center"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="150dp"
+				android:id="@+id/linearLayout2" >
+
+				<LinearLayout
+				android:orientation="horizontal"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="100dp"
+					android:layout_marginTop="50dp"
+				android:id="@+id/linearLayout2" >
+				<Button
+					android:text="Unidades"
+					android:layout_marginHorizontal="20dp"
+					android:background="@drawable/stylebtndegr"
+					android:textColor="@android:color/white"
+					android:layout_marginTop="30dp"
+					android:layout_width="160dp"
+					android:layout_height="wrap_content"
+					android:id="@+id/btnUnidades" />
+				<Button
+					android:text="temas"
+					android:layout_marginRight="20dp"
+					android:background="@drawable/stylebtndegr"
+					android:textColor="@android:color/white"
+					android:layout_marginTop="30dp"
+					android:layout_width="160dp"
+					android:layout_height="wrap_content"
+					android:id="@+id/btnTemas" />
+			</LinearLayout>
+
+				<TextView
+					android:layout_marginTop="15dp"
+					android:textAlignment="center"
+					android:text="Calificaciones"
+					android:textColor="@color/ColorLetra"
+					android:textSize="20dp"
+					android:textStyle="bold"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					
+					android:id="@+id/textView2" />
+				<LinearLayout
+						android:layout_marginTop="10dp"
+						android:orientation="vertical"
+						android:minWidth="25px"
+						android:layout_marginHorizontal="10dp"
+						android:background="@drawable/bordebuscar"
+						android:minHeight="25px"
+						android:layout_width="250dp"
+						android:layout_height="100dp"
+						android:id="@+id/linearLayout1" >
+
+						<TextView
+							android:text="Final: "
+							android:textSize="20dp"
+							android:textStyle="bold|italic"
+							android:layout_marginTop="10dp"
+							android:layout_marginLeft="20dp"
+							android:textAppearance="?android:attr/textAppearanceLarge"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:minWidth="25px"
+							android:minHeight="25px"
+							android:id="@+id/textView1" />
+						<TextView
+							android:text="Acumulado: "
+							android:textSize="20dp"
+							android:textStyle="bold|italic"
+							android:layout_marginTop="10dp"
+							android:layout_marginLeft="20dp"
+							android:textAppearance="?android:attr/textAppearanceLarge"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:id="@+id/textView3" />
+					</LinearLayout>
+				</LinearLayout>
+			<!--Botones-->
+			<LinearLayout
+				android:orientation="horizontal"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="30dp"
+				android:layout_marginTop="50"
+				android:id="@+id/linearLayout4" >
+				<TextView
+					android:layout_marginTop="5dp"
+					android:textAlignment="center"
+					android:text="Avisos"
+					android:textColor="@color/ColorLetra"
+					android:textSize="20dp"
+					android:textStyle="bold"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView2" />
+				
+			</LinearLayout>
+			<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:layout_marginHorizontal="10dp"
+				android:background="@drawable/bordebuscar"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="130dp"
+				android:id="@+id/linearLayout13" >
+
+				
+				
+				
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

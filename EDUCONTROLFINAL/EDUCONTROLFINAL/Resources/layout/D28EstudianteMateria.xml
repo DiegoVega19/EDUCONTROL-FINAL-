@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<!--Encabezaco-->
+	<RelativeLayout
+		android:background="@android:color/holo_blue_light"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:id="@+id/linearLayout1">
+		<ImageView
+			android:src="@drawable/avatar"
+			android:layout_marginTop="5dp"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+			android:id="@+id/imageView1" />
+		<TextView
+			android:textSize="20dp"
+			android:text="Estudiante"
+			android:textColor="@android:color/black"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="24dp"
+			android:textStyle="bold|italic"
+			android:layout_centerInParent="true"
+			android:id="@+id/textView1" />
+	</RelativeLayout>
+
+	
+	<ScrollView
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/scrollView1" >
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:id="@+id/linearLayout2" >
+
+			<!--Barra De Progreso-->
+			<LinearLayout
+				android:orientation="vertical"
+				android:gravity="center"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="100dp"
+				android:id="@+id/linearLayout1">
+
+				<LinearLayout
+				android:layout_marginHorizontal="10dp"
+				android:orientation="horizontal"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:background="@drawable/bordebuscar"
+				android:layout_width="match_parent"
+				android:layout_height="25dp"
+				android:id="@+id/linearLayout2">
+					<TextView
+						android:text=" |||||||||||||||||||||||"
+						android:textStyle="bold"
+						android:textColor="@color/ColorLetra"
+						android:textAppearance="?android:attr/textAppearanceLarge"
+						android:layout_width="wrap_content"
+						android:layout_height="match_parent"
+						android:id="@+id/txt28_ProgresBar" />
+				</LinearLayout>
+				<TextView
+					android:layout_marginTop="5dp"
+					android:textAlignment="center"
+					android:text="Asitencia 75/100"
+					android:textColor="@color/ColorLetra"
+					android:textSize="20dp"
+					android:textStyle="bold"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/txt28_Asitencia" />
+			</LinearLayout>
+			<!--Datos Estudiantes-->
+			<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:layout_marginHorizontal="10dp"
+				android:background="@drawable/bordebuscar"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="195dp"
+				android:id="@+id/linearLayout1" >
+
+				<TextView
+					android:text="Nombre: "
+					android:textSize="20dp"
+					android:textStyle="bold|italic"
+					android:layout_marginTop="10dp"
+					android:layout_marginLeft="20dp"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:minWidth="25px"
+					android:minHeight="25px"
+					android:id="@+id/txt28_Nombre" />
+				<TextView
+					android:text="Carrera: "
+					android:textSize="20dp"
+					android:textStyle="bold|italic"
+					android:layout_marginTop="10dp"
+					android:layout_marginLeft="20dp"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/txt28_Carrera" />
+				<TextView
+					android:text="Telefono: "
+					android:textSize="20dp"
+					android:textStyle="bold|italic"
+					android:layout_marginTop="10dp"
+					android:layout_marginLeft="20dp"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/txt28_Telefono" />
+				<TextView
+					android:text="# Carnet: "
+					android:textSize="20dp"
+					android:textStyle="bold|italic"
+					android:layout_marginTop="10dp"
+					android:layout_marginLeft="20dp"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView4" />
+				<TextView
+					android:text="Correo: "
+					android:textSize="20dp"
+					android:textStyle="bold|italic"
+					android:layout_marginTop="10dp"
+					android:layout_marginLeft="20dp"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/txt28_Correo" />
+			</LinearLayout>
+
+			<!--Calificaciones-->
+			<LinearLayout
+				android:orientation="vertical"
+				android:gravity="center"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="150dp"
+				android:id="@+id/linearLayout2" >
+				<TextView
+					android:layout_marginTop="5dp"
+					android:textAlignment="center"
+					android:text="Calificaciones"
+					android:textColor="@color/ColorLetra"
+					android:textSize="20dp"
+					android:textStyle="bold"
+					android:textAppearance="?android:attr/textAppearanceLarge"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView2" />
+				<LinearLayout
+						android:layout_marginTop="10dp"
+						android:orientation="vertical"
+						android:minWidth="25px"
+						android:layout_marginHorizontal="10dp"
+						android:background="@drawable/bordebuscar"
+						android:minHeight="25px"
+						android:layout_width="250dp"
+						android:layout_height="100dp"
+						android:id="@+id/linearLayout1" >
+
+						<TextView
+							android:text="Acumulado: "
+							android:textSize="20dp"
+							android:textStyle="bold|italic"
+							android:layout_marginTop="10dp"
+							android:layout_marginLeft="20dp"
+							android:textAppearance="?android:attr/textAppearanceLarge"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:minWidth="25px"
+							android:minHeight="25px"
+							android:id="@+id/txt28_Acumulado" />
+						<TextView
+							android:text="Examen: "
+							android:textSize="20dp"
+							android:textStyle="bold|italic"
+							android:layout_marginTop="10dp"
+							android:layout_marginLeft="20dp"
+							android:textAppearance="?android:attr/textAppearanceLarge"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:id="@+id/txt28_Examen" />
+					</LinearLayout>
+				</LinearLayout>
+			<!--Botones-->
+			<LinearLayout
+				android:orientation="horizontal"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="100dp"
+				android:id="@+id/linearLayout2" >
+				<Button
+					android:text="Presente"
+					android:layout_marginHorizontal="20dp"
+					android:background="@drawable/stylebtndegr"
+					android:textColor="@android:color/white"
+					android:layout_marginTop="30dp"
+					android:layout_width="160dp"
+					android:layout_height="wrap_content"
+					android:id="@+id/btn28_Presente" />
+				<Button
+					android:text="Eliminar"
+					android:layout_marginRight="20dp"
+					android:background="@drawable/stylebtndegr"
+					android:textColor="@android:color/white"
+					android:layout_marginTop="30dp"
+					android:layout_width="160dp"
+					android:layout_height="wrap_content"
+					android:id="@+id/btn28_Eliminar" />
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

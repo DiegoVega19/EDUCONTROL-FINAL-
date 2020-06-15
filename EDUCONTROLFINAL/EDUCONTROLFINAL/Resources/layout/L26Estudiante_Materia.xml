@@ -36,8 +36,7 @@
 
 	<LinearLayout
 		android:layout_marginTop="30dp"
-		android:layout_marginRight="10dp"
-		android:layout_marginLeft="10dp"
+		android:layout_marginHorizontal="10dp"
 		android:orientation="horizontal"
 		android:minWidth="25px"
 		android:minHeight="25px"
@@ -53,7 +52,7 @@
 			android:textAlignment="textEnd"
 			android:layout_height="match_parent"
 			style="@android:style/Holo.ButtonBar"
-			android:id="@+id/texAgrEstMat_Buscar"/>
+			android:id="@+id/tex26_Buscar"/>
 
 		<ImageView
 			android:src="@drawable/buscar"
@@ -66,9 +65,8 @@
 
 	<LinearLayout
 		android:orientation="vertical"
+		android:layout_marginHorizontal="10dp"
 		android:layout_marginTop="20dp"
-		android:layout_marginRight="10dp"
-		android:layout_marginLeft="10dp"
 		android:background="@drawable/bordebuscar"
 		android:minWidth="25px"
 		android:minHeight="25px"
@@ -95,6 +93,6 @@
 			android:minHeight="25px"
 			android:layout_width="match_parent"
 			android:layout_height="match_parent"
-			android:id="@+id/listAgrEstuMate" />
+			android:id="@+id/list26_EstMate" />
 	</LinearLayout>
 </LinearLayout>

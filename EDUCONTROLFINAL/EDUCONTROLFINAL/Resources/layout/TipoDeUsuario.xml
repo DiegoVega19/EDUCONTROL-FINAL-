@@ -1,0 +1,50 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/usuario"
+        android:layout_width="250dp"
+        android:layout_height="200"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:id="@+id/imageView1" />
+
+    <TextView
+        android:text="Seleccione El Tipo De Usuario"
+        android:gravity="center_vertical"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/textView2"
+        android:layout_marginVertical="50dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:text="Docente"
+        android:textStyle="normal|bold"
+        android:background="@drawable/stylebtndegr" 
+        android:textColor="@android:color/white"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/DoceneteTipoUsuario" />
+
+    <Button
+        android:text="Estudiante"
+        android:textStyle="normal|bold"
+        android:background="@drawable/stylebtndegr" 
+        android:textColor="@android:color/white"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/EstudianteTipoUsuario" />
+
+</LinearLayout>

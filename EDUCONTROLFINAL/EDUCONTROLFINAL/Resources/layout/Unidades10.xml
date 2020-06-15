@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+     <RelativeLayout
+        android:orientation="Horizontal"
+        android:background="@android:color/holo_blue_light"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/linearLayout1">
+        <ImageView
+            android:src="@drawable/usuario"
+            android:layout_marginTop="5dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/imageView1" />
+        <TextView
+            android:textSize="20dp"
+            android:text="Unidades"
+            android:textColor="@android:color/black"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textStyle="bold|italic"
+            android:layout_centerInParent="true"
+            android:id="@+id/textView1" />
+    </RelativeLayout>
+
+     <LinearLayout
+		android:orientation="vertical"
+		android:layout_marginTop="20dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginLeft="10dp"
+		android:background="@drawable/bordebuscar"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:gravity="center"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/linearLayout8">
+
+		
+
+		<ListView
+			android:layout_marginTop="10dp"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/listAsignaturas" />
+	</LinearLayout>
+
+</LinearLayout>

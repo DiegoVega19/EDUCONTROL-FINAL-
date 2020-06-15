@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<!--Encabezaco-->
+	<RelativeLayout
+		android:background="@android:color/holo_blue_light"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="50dp"
+		android:id="@+id/linearLayout1">
+
+		<ImageView
+			android:src="@drawable/avatar"
+			android:layout_marginTop="5dp"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:layout_marginRight="10dp"
+            android:layout_alignParentRight="true"
+			android:id="@+id/imageView1" />
+		<TextView
+			android:textSize="20dp"
+			android:text="Estudiante"
+			android:textColor="@android:color/black"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="24dp"
+			android:textStyle="bold|italic"
+			android:layout_centerInParent="true"
+			android:id="@+id/textView1" />
+	</RelativeLayout>
+	<!--Datos Estudiantes-->
+	<LinearLayout
+		android:layout_marginTop="30dp"
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:layout_marginHorizontal="10dp"
+		android:background="@drawable/bordebuscar"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="195dp"
+		android:id="@+id/linearLayout1" >
+
+		<TextView
+			android:text="Nombre: "
+			android:textSize="20dp"
+			android:textStyle="bold|italic"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="20dp"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:id="@+id/txt27_Nombre" />
+		<TextView
+			android:text="Carrera: "
+			android:textSize="20dp"
+			android:textStyle="bold|italic"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="20dp"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/txt27_Carrera" />
+		<TextView
+			android:text="Telefono: "
+			android:textSize="20dp"
+			android:textStyle="bold|italic"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="20dp"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/txt27_Telefono" />
+		<TextView
+			android:text="# Carnet: "
+			android:textSize="20dp"
+			android:textStyle="bold|italic"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="20dp"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/txt27_Carnet" />
+		<TextView
+			android:text="Correo: "
+			android:textSize="20dp"
+			android:textStyle="bold|italic"
+			android:layout_marginTop="10dp"
+			android:layout_marginLeft="20dp"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/txt27_Correo" />
+	</LinearLayout>
+
+	<!--Boton Aceptar-->
+	<LinearLayout
+		android:orientation="vertical"
+		android:gravity="center"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/linearLayout2" >
+		
+		<Button
+			android:text="Agregar"
+			android:background="@drawable/stylebtndegr"
+			android:textColor="@android:color/white"
+			android:layout_marginTop="30dp"
+			android:layout_width="160dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/btn27_Agregar" />
+		</LinearLayout>
+</LinearLayout>
